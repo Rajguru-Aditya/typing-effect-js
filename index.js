@@ -5,9 +5,9 @@ let typewriter = new Typewriter(app, {
 });
 
 typewriter
-  .typeString("Hello World!")
+  .typeString("I am a Web developer")
   .pauseFor(2500)
   .deleteAll()
-  .typeString("I am a Web developer and designer.")
+  .typeString("and a designer")
   .pauseFor(2500)
   .start();
